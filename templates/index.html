@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Malaria DL</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="C:/Users/dell/Desktop/AI_Project/static/css/styles.css">
+  <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet"> 
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <style>
+   .lifecycle {
+  width: 50%;
+  height: 40%;
+  margin-top: 2px;
+}
+ .pressfix{
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  /*line-height: 1.5;*/
+
+}
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.bite{
+   font-size: 0.85rem;
+   background-color: #ffc280;
+  width: 125px;
+  border: 4px #ffc280;
+  padding: 5px;
+  color: black;
+  
+
+}
+.end-image {
+  width: 30%;
+  border-radius: 100%;
+  margin: 20px;
+}
+  </style>
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="">Malaria Detection using DL</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#features">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Prevention</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#prediction">Predict</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+
+      <div class="row">
+           
+        <div class="col-lg-6">
+          <h1 class="big-heading">Know more about Malaria, how to prevent it and its prediction</h1>
+          <br>
+          <p class="bite">Bites can kill</p>
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-image" src ="/static/images/malaria.png" alt="malaria-mockup">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">Asymptomatic malaria</h3>
+          <p>Caused by all Plasmodium species; the patient has circulating parasites but no symptoms..</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-title">Complications </h3>
+          <p>Severe anaemia and end-organ damage, coma, pulmonary complications and hypoglycaemia </p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-heart fa-4x"></i>
+          <h3 class="feature-title">Take help</h3>
+          <p>Consult your doctor and follow prescribed medicines</p>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+   <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">Apply insect repellent to exposed skin. The recommended repellent contains 20-35% percent N,N-Diethyl-meta-toluamide (DEET).Wear long-sleeved clothing and long pants if you are outdoors at night.</h2>
+          <img class="testimonial-image" src="/static/images/mosquito.jpg" alt="mosquito">
+          <em>Stay safe</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text"><img class="lifecycle" src="/static/images/lifecycle.jpg"></h2>
+          
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Use a mosquito net over the bed if your bedroom is not air-conditioned or screened. Treat the mosquito net with the insecticide permethrin.
+            Spray an insecticide or repellent on clothing, as mosquitoes may bite through thin clothing.</h2>
+          <img class="testimonial-image" src="/static/images/injection.jpg" alt="injection">
+          <em>Fight malaria</em>
+        </div>
+        
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section class="colored-section" id="press">
+    <a  class="pressfix"><font color="Black">Can Malaria Be Prevented?</font></a>
+
+  </section>
+
+
+  <!-- Prediction -->
+
+  <section class="white-section" id="prediction">
+
+    <h2 class="section-heading">Check whether the person is infected with malaria or not</h2>
+    <p>Interactive, simple  and quick way to predict malaria</p>
+    
+    <div class="heading">
+      <b><h1>PREDICTION</h1></b>
+  </div>
+
+  <br>
+
+  <div style="width: 100%;">
+      <div class="subheading-left">
+          <h2 style="float: left; margin-left: 10%;"></h2>
+      </div>
+
+      <div class="subheading-right">
+          <h2 style="margin-right: 29%;"></h2>
+      </div>
+  </div>
+
+  <div style="width: 100%;">
+
+      <div id = "text">
+           <br>
+          Upload image and check whether it is infected or not with malaria
+      </div>
+
+      <div class="box">
+
+          <div>
+              {% if uploaded_image %}
+              <div>
+                  <div id="align-span">
+                      <img src="{{ uploaded_image }}" width="200">
+                  </div>
+                  <span id="result">{{result}}</span>
+              </div>
+              {% else %}
+              
+              <form action = "/predict" id="upload-file" method="post" enctype="multipart/form-data">
+                  <div class="topic">
+                      Please upload an image here!
+                  </div>
+                  
+                  <input type="file" multiple="false" accept="image/*" id = "real-file" name="image" hidden="hidden"  onchange="loadFile(event)"/>
+                  <button type="button" id = "custom-button" style="size: 36px;"> CHOOSE AN IMAGE </button>
+                  <span id="custom-text"> No file chosen yet! </span>
+                  
+                  <div>
+                      <br style="line-height: 20px;">
+                      <button type="submit" id="custom-submit">PREDICT</button>
+                  </div>
+              </form>
+              {% endif %}  
+          </div>
+
+          <br style="line-height: 10px;">
+
+          <div id="align-span">
+              <img id="output" width="200"/>
+          </div>
+
+      </div>
+
+  </div>
+
+  <!-- We create an actual button using the file type and use the functionality of this button in the custom button, thus we hide it -->
+  <!-- multiple = false prohibits uploading multiple files -->
+  <!-- All kinds of image files are accepted using * (only image files) -->
+  <!-- onchange is an event handler which is triggered on uploading a file -->
+
+  <!-- Script is used to include JavaScript code --> 
+   <script type="text/JavaScript">
+      
+      // create an instance for each of the above
+      const realFileBtn = document.getElementById("real-file");
+      const customBtn = document.getElementById("custom-button");
+      const customTxt = document.getElementById("custom-text");
+
+      // To call the event handler to make the button work
+      customBtn.addEventListener("click", function() {
+          realFileBtn.click()  //This will virtually click on the actual button
+      });
+
+      // To display the filename in the custom text span -->
+      // when the value of the file changes, then the event listener is triggered
+      realFileBtn.addEventListener("change", function() {
+          if (realFileBtn.value) //if the file is chosen (if the file has a value)
+          {
+              // The regular expression inside match will extract the filename from the filepath
+              customTxt.innerHTML = realFileBtn.value.match(/[\/\\]([\w\d\s\.\-\(\)]+)$/)[1];
+              var loadFile = function(event) {
+                  var image = document.getElementById('output');
+                  image.src = URL.createObjectURL(event.target.files[0])
+              };
+              
+          }
+          else
+          {
+              customTxt.innerHTML = "No file chosen yet!";
+          }
+      });
+
+      // To Display the image uploaded
+      var loadFile = function(event) {
+        var image = document.getElementById('output');
+        image.src = URL.createObjectURL(event.target.files[0]);
+      };
+      
+      
+ </script>
+    
+
+
+
+   
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section class="colored-section" id="cta">
+
+    <div class="container-fluid">
+
+      <h3 class="big-heading">Easy way to predict malaria using deep learning techniques</h3>
+      <img class="end-image" src="/static/images/nomal.jpg" alt="malaria-mockup">
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>© Copyright 2021 Malaria Detection</p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
