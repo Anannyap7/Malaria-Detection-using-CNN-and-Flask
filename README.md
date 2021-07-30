@@ -12,7 +12,7 @@ In this project we have used Convolutional Neural Networks(CNN) to train a model
 [Malaria Dataset](https://drive.google.com/drive/folders/1oLusajDqV-2Bn-ZXLWsSCFzuKQURqpLq?usp=sharing)
 
 ## Link to the Video Demonstration
-[Video Demo of the Malaria Datatset](https://drive.google.com/drive/folders/1CkN0biffm_0wzgUI4sOAGr4FSvM7MyIn?usp=sharing)
+[Video Demo of the Malaria Detection](https://drive.google.com/drive/folders/1CkN0biffm_0wzgUI4sOAGr4FSvM7MyIn?usp=sharing)
 
 ## Link to Feedback Video
 [SmartBridge Feedback Video](https://drive.google.com/drive/folders/18uGNVX1_lCUQDcIfEM1XqNQz6NPnr23d?usp=sharing)
