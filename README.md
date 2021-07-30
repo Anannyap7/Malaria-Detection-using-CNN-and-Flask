@@ -1,8 +1,8 @@
 # Malaria Detection using CNN
 
-In this project we have used Convolutional Neural Networks(CNN) to train a model that can predict if a patient is infected with malaria or not. Model trained using IBM Cloud Services and we have acheived over 96% accuracy and deployed it using a Flask Application
+In this project we have used Convolutional Neural Networks(CNN) to train a model that can predict if a patient is infected with malaria or not. Model trained using IBM Cloud Services and we have acheived over 96% accuracy and deployed it using a Flask Application.
 
-## Team Members
+## Team Members (Team Brogrammers)
 - Pratham Shah (19BCE2028)
 - Anannya Popat (19BBS0048)
 - Jhanak Gupta (19BCE2037)
